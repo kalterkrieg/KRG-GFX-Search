@@ -20,14 +20,14 @@ jobs:
     - name: Checkout kalterkrieg/krg-development master branch
       uses: actions/checkout@v2
       with:
-        token: ${{ secrets.GHPAGES_PUSH_TOKEN }}
+        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
         ref: master
         path: ''
         repository: 'kalterkrieg/krg-development'
     - name: Checkout master branch
       uses: actions/checkout@v2
       with:
-        token: ${{ secrets.GHPAGES_PUSH_TOKEN }}
+        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
         ref: master
         path: gh-pages
     - name: Generate webpage
