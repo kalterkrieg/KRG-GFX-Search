@@ -42,7 +42,7 @@ jobs:
         decisions: './interface/decisions.gfx'
         #decisionsCat: './interface/decisions_categories.gfx'
         #decisionsPics: './interface/KR_decisions_categories_pictures.gfx'
-        favicon: './krg_icon.png'
+        #favicon: './krg_icon.png'
         title: 'Kalterkrieg GFX Search'
         modPath: 'gh-pages'
         modifiedFiles: ${{ github.event.client_payload.files }}
