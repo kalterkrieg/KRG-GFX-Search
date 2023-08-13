@@ -34,7 +34,7 @@ jobs:
       uses: Yard1/hoi4-icon-search-action@master
       with:
         goals: './interface/KRG_goals.gfx'
-        ideas: './interface/KR_ideas.gfx ./interface/KR_ideas_africa.gfx ./interface/KR_ideas_americas.gfx ./interface/KR_ideas_asia.gfx ./interface/KR_ideas_europe.gfx, ./interface/ideas.gfx'
+        ideas: './interface/KRG_ideas.gfx'
         texticons: './interface/KRG_texticons.gfx'
         events: './interface/KRG_event_country_pictures.gfx'
         newsEvents: './interface/KRG_event_news_pictures.gfx'
