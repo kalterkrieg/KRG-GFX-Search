@@ -36,7 +36,7 @@ jobs:
         goals: './interface/kalterkrieg/goals.gfx'
         ideas: './interface/kalterkrieg/ideas.gfx'
         texticons: './interface/kalterkrieg/texticons.gfx'
-        events: './interface/kalterkrieg/events/**'
+        events: './interface/kalterkrieg/events/**/*.gfx'
         agencies: './interface/countryintelligenceagencyview.gfx'
         decisions: './interface/kalterkrieg/decisions.gfx'
         decisionsCat: './interface/kalterkrieg/decisions_categories.gfx'
