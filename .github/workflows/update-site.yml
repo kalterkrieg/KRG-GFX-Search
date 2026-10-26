@@ -17,11 +17,11 @@ jobs:
       uses: webfactory/ssh-agent@v0.5.4
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-    - name: Checkout kalterkrieg/krg-development Alingnment_revamp branch
+    - name: Checkout kalterkrieg/krg-development branch
       uses: actions/checkout@v2
       with:
         ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        ref: Alingnment_revamp
+        ref: ${{ github.event.client_payload.branch || 'master' }}
         path: ''
         repository: 'kalterkrieg/krg-development'
     - name: Checkout master branch
