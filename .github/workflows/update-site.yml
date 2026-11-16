@@ -41,6 +41,7 @@ jobs:
         decisions: './interface/kalterkrieg/decisions.gfx'
         decisionsCat: './interface/kalterkrieg/decisions_categories.gfx'
         decisionsPics: './interface/kalterkrieg/decisions_categories_pictures.gfx'
+        portraits: './interface/kalterkrieg/portraits/**.gfx'
         favicon: './krg_icon.png'
         title: 'Kalterkrieg GFX Search'
         modPath: 'gh-pages'
